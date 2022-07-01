@@ -60,6 +60,7 @@ body {
     padding: 12.5px 41.5px;
     margin-top: 25px;
     max-width: 274px;
+    border-radius: 30px;
 }
 
 .container-img-city{
@@ -81,6 +82,21 @@ body {
 @media(max-width: 1366px){
     .container{
     max-width: 1366px;
+    }
+
+    .center{
+    margin-top: 90px;
+    }
+    .container-img-city{
+    max-width:1120px;
+    margin-top: 65px;
+    }
+
+    .container-img-reds{
+    top: 125px;
+    right: 133px;
+    max-width: 130px;
+    max-height: 600px;
     }
 }
 
